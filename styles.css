@@ -1,0 +1,251 @@
+﻿body {
+    background-color: azure !important;
+}
+/* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+.my-custom-row {
+    background-color: white;
+    height: 300px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20%;
+    background-color: azure;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 48em) {
+    .custom-logo-link img {
+        max-width: 700px;
+    }
+}
+
+.custom-logo-link img {
+    /* display: inline-block; */
+    max-height: 100px;
+    background-size: contain;
+    /* width: auto; */
+}
+
+.custom-logo-link-footer img {
+    display: inline-block;
+    max-height: 25px;
+    background-size: contain;
+    margin: 0 auto;
+    width: auto;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links li {
+      padding: 0px 25px;
+}
+
+.nav__links li a {
+     color: cadetblue !important;
+     transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+     color: ButtonShadow !important;
+}
+
+.button-size {
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: white !important;
+    background-color: cadetblue !important;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-size-invalid {
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: white !important;
+    background-color: cadetblue !important;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button5:hover {
+    background-color: lightblue !important;
+    color: white;
+}
+
+.card {
+    background-color: white !important;
+    height: 350px;
+    width: 1280px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    border: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: lightgrey !important;
+}
+
+.card-invalid {
+    background-color: white !important;
+    height: 400px;
+    width: 700px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    padding-bottom: 0.2em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-top: 0.2em;
+    border: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: lightgrey;
+}
+
+.card-help {
+    background-color: azure !important;
+    height: 600px;
+    width: 1000px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    padding-bottom: 0.2em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-top: 0.2em;
+    
+}
+
+.card-result {
+    background-color: white !important;
+    height: 400px;
+    width: 1800px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    border: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: lightgrey !important;
+}
+
+.imageColumn {
+    float: left;
+    width: 5%;
+    padding: 10px;
+}
+
+ul.separator {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+ul.separator li {
+    padding: .5em 0;
+    border-bottom: 1px solid #CCC;
+    }
+
+ul.separator li:last-child {
+    border-bottom: 0;
+    }
+
+.button-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+img {
+    max-width: 2000px;
+    height: 200px;
+}
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.nav__links_clm a,
+.cta,
+.overlay__content a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav__links_clm {
+    list-style: none;
+    display: block;
+}
+
+    .nav__links_clm li {
+        padding: 15px 200px;
+        
+    }
+
+        .nav__links_clm li a {
+            color: cadetblue !important;
+            transition: color 0.3s ease 0s;
+        }
+
+            .nav__links_clm li a:hover {
+                color: ButtonShadow !important;
+            }
+
+                .nav__links_clm li a:target {
+                    background-color: black;
+                }
+.currentLink {
+    color: #640200;
+    background-color: #000000;
+}
+
+table, th, td {
+    border: 1px solid black !important;
+    border-collapse: collapse;
+    text-align: left;
+    
+}
+th {
+    color: darkslategray;
+    background: azure;
+}
